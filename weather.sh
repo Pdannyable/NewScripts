@@ -23,8 +23,8 @@ echo Humidity:
 read humid
 echo "METAR for $designation at"
 date
-echo is Winds are from $radial at $knots with a visibility of $vis statute miles.
-echo Cloud coverage is $octa at $cheigth with a temperature of $temp degree celcius and due point of $due degrees celcius.
+echo is Winds are from $radial degrees at the speed of $knots with a visibility of $vis statute miles.
+echo Cloud coverage is $octa at $cheigth feet with a temperature of $temp degree celcius and due point of $due degrees celcius.
 echo Altimeter pressure at $designation is $alt inHg and the humidity level is $humid percent
 #script will give a resolution of the weather based on parameters entered
 if (($cheigth >= 2000))
