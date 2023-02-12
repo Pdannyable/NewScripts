@@ -22,16 +22,18 @@ read alt
 echo Humidity:
 read humid
 echo "METAR for $designation at"
-date echo Winds are from $radial at $knots with a visibility of $vis statute miles.
-echo Cloud coverage is $octa at $cheigth with a temperature of $temp degree celcius and due point of $due.
+date
+echo is Winds are from $radial at $knots with a visibility of $vis statute miles.
+echo Cloud coverage is $octa at $cheigth with a temperature of $temp degree celcius and due point of $due degrees celcius.
 echo Altimeter pressure at $designation is $alt inHg and the humidity level is $humid percent
 #script will give a resolution of the weather based on parameters entered
-if ((cheigth >= 2000))
-   ((vis >= 5000))
+if (($cheigth >= 2000))
+   (($vis >= 5000))
 then
-echo Weather is VFR
+echo $designation Weather is VFR
 echo Enjoy your flight
 else
-echo Weather is not VFR
-echo Please check again in 30 minutes or more.
+echo $designation Weather is not VFR
+echo Please check again in 30 minutes or more
+fi
 #End of script
