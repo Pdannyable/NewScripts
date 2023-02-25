@@ -13,4 +13,5 @@ then
 echo "Customer 2 has a better offer, sell to Customer 2"
 else "We have a tie of $offer1"
 echo "Request for an increase and choose the best possible offer"
+echo "Suggested increase should be at least 50 percent increase of the higher value between two customers"
 fi
