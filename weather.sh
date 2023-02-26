@@ -36,4 +36,5 @@ else
 echo $designation Weather is not VFR
 echo Please check again in 30 minutes or more
 fi
+I love :pizza :cake , and :dancer
 #End of script
