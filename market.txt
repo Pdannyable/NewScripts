@@ -1,0 +1,7 @@
+#This list is a collection of market places available for upgrade
+1. Olfsen Hub
+2. Banana Republic
+3. Ocean Drive
+4. Hermes for Men
+5. Zara
+
