@@ -2,3 +2,4 @@
 date
 whoami
 
+THis script should work fine now
